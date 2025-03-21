@@ -99,17 +99,17 @@
 
 #  11th Assignment : take a 10 cities and reverse it and do a first and last word in capital
 
-ls = ["lahore","karachi","peshawar","jaranwala","gujranwala", "sahiwal","faisalabad","quetta","hyderabad","okara"]
-ls.reverse()
-lp = []
-for x in ls:
-    lp.insert(0,x)
-    print(lp)
-    sp =[]
-    for x in ls:
-        p = x[0:1].upper() + x[1:-1].lower() + x[-1:].upper()
-        sp.append(p)
-        print(sp)
+# ls = ["lahore","karachi","peshawar","jaranwala","gujranwala", "sahiwal","faisalabad","quetta","hyderabad","okara"]
+# # ls.reverse()
+# lp = []
+# for x in ls:
+#     lp.insert(0,x)
+#     print(lp)
+#     sp =[]
+#     for x in ls:
+#         p = x[0:1].upper() + x[1:-1].lower() + x[-1:].upper()
+#         sp.append(p)
+#         print(sp)
 
 
 
