@@ -112,6 +112,89 @@
 #         print(sp)
 
 
+# 12 Assignment: take a input from user and print in list
+
+# a = input("input your name :")
+# b = input("input your father name :")
+# c = [a,b]
+# print(c)
+
+
+# 13 Assignment fictorial
+
+# num = int(input("Enter a number: "))  
+# factorial = 1  
+
+# for i in range(1, num + 1):  
+#     factorial *= i  
+
+# print("Factorial of", num, "is", factorial)
+
+
+
+# 14 Assignment : how many 3 in 100
+
+# count = 0
+
+# for i in range(1, 101):
+#     count += str(i).count('3')
+
+# print("Total occurrences of digit 3:", count)
+
+#  15 Tuple assignment
+
+# tup1 = ("faisalabad", "jaranwala", "lahore")
+# tup2 = (1, 2, 3, 4, 5, 6, 7, 8, 9)
+# tub3 = tub2+tub1
+# print(tup3[7:]) + tup3([:7])
+
+# 16 assignment: make a first word capitalized
+
+# tup = ("lahore","jaranwala","faisalabad")
+# ls = list ((tup))
+# lp = []
+# for x in ls:
+#     y = x[0:1].upper() + x[1:].lower()
+#     lp.append(y)
+# print(lp)
+
+# Assignments of SET:
+
+# 16 ASSignment of SEt: change into typle and set and inpack
+
+# st = {"item 1","item 2"}
+# st1,st2 = st
+
+# ls = list(st)
+# print(type(ls))
+# print(type(st))
+
+# ls = (tuple(st))
+# print(type(ls))
+
+#17 Assignment of set union intersection and difference
+
+# ls = set(["hello","world"])
+# tup = set(("hello", "item"))
+
+# nt = ls.intersection(tup)
+# un = ls.union(tup)
+# df = ls.difference(tup)
+# print(nt,un,df)
+
+#18 assignment unpack and make into list and append
+
+
+# tup = ("a", "b", "c","d","e","f","g","h","i","f")
+# st1,*st2,st3= tup
+
+# print(st2)
+# v = list(tup)
+# print(type(v))
+# v.append("453455")
+# print(v)
+
+
 
 
 
