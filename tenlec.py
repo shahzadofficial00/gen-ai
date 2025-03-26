@@ -42,9 +42,36 @@
 
                                                                    # Copy DICTIONARY
 
-dic1 = {"name":"shahazad", "age":22}
+# dic1 = {"name":"shahazad", "age":22}
 # dic2 = dic1.copy()
 # dic2 = {"name":"hassan", "age":22}
-dic2 = dict(dic1)                                                 # constructor 
-dic1["name"] ="adil"
-print(dic1,dic2)
+# dic2 = dict(dic1)                                                 # constructor 
+# dic1["name"] ="adil"
+# print(dic1,dic2)
+
+# 1st Assignment : make a nested dictionary and update and delete anything.
+
+
+# dic1 = {
+#     "person1" :{"name" : "shahzad", "age":22,"gender": "male"},
+#     "person2" :{"name" : "hassan", "age":21,"gender":"male"}
+#         }
+
+# dic1["person1"]["age"]=25
+# dic1["person2"].pop("name")
+
+# print(dic1)
+# print(dic1["person1"]["age"])
+
+
+
+# 2nd assignment create a empty dictionary and add many values 
+
+
+# dic1 = {
+#     "person1" :{},
+#     "person2" :{}
+#         }
+# dic1["person1"].update({"name":"shahzad","age":22})
+# dic1["person2"].update({"name":"hassan","age":23})
+# print(dic1)

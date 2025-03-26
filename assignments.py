@@ -194,8 +194,43 @@
 # v.append("453455")
 # print(v)
 
+# 19th assignment convert set into list or tuple and take a union of sets
+
+# st1 = {"hello","world"}
+# st2 = {"how","are"}
+# set3 = {"you","fine"}
+# st4 = st1.union(st2,set3)
+# st5 = st4
+# ls = list(st5)
+# tup = tuple(st5)
+# print(st4)
+# print(type(ls),type(tup))
+
+#20 Assignment : make a nested dictionary and update and delete anything.
 
 
+# dic1 = {
+#     "person1" :{"name" : "shahzad", "age":22,"gender": "male"},
+#     "person2" :{"name" : "hassan", "age":21,"gender":"male"}
+#         }
+
+# dic1["person1"]["age"]=25
+# dic1["person2"].pop("name")
+
+# print(dic1)
+# print(dic1["person1"]["age"])
+
+
+# 21 assignment create a empty dictionary and add many values 
+
+
+# dic1 = {
+#     "person1" :{},
+#     "person2" :{}
+#         }
+# dic1["person1"].update({"name":"shahzad","age":22})
+# dic1["person2"].update({"name":"hassan","age":23})
+# print(dic1)
 
 
 

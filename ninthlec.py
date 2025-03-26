@@ -86,6 +86,7 @@ st4 = st1.union(st2,set3)
 st5 = st4
 ls = list(st5)
 tup = tuple(st5)
+print(st4)
 print(type(ls),type(tup))
 
 
