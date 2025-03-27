@@ -233,6 +233,32 @@
 # print(dic1)
 
 
+# 22 ASSIGNMENT : take a 5 cities and which city is compared show that your city is clean.  
+
+# def fun():
+#     city=["Lahore","Karachi","Islamabad","Multan","Sarghoda"]
+#     user=input("Enter your city")
+#     if user in city:
+#         print("your city is clean: ")
+#     else:
+#         print("your city is not clean")
+# fun()
+
+# 22 assignment part 2 : FLAG
+
+# def fun(c):
+#     alp = False
+#     ls = ["Lahore","Faisalabad","Karachi","Multan","jaranwala"]
+#     for city in ls:
+#         if city == c:
+#             alp=True
+#     if (alp):
+#         print("your city is clean: ")
+#     else:
+#         print("your city is not clean")
+# c = input("Please enter your city")
+# fun(c)
+
 
 
 
