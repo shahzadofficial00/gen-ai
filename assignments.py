@@ -257,7 +257,78 @@
 #     else:
 #         print("your city is not clean")
 # c = input("Please enter your city")
-# fun(c)
+# fun(c) 
+
+# 23 assignment
+
+# num1 = 50+70 -20*2/5
+# print(num1)
+# def num2():
+#     flag = False
+#     if(num1>=50 or num1<=500):
+#         flag = True
+#     if(flag):
+#         print("flag is True")
+#     else:
+#         print("flag is False")
+
+# num2()
+
+
+# assignment 24  add two digits
+
+# class Sum:
+#     # pass
+#     def steEmp(self,a,b):
+#         self.a = a
+#         self.b = b
+#     def getEmp(self):
+#         print(f"{self.a + self.b}") 
+
+# ab = Sum()
+# ab.steEmp(15,20) 
+# ab.getEmp() 
+
+
+
+# Assignment 25: add 5 employes data and converts age into string in OOP and constructor
+
+# class Employee:
+#     # pass
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = str(age)
+#     def getEmp(self):
+#         print(f"{self.name}: {self.age}") 
+#         print(type(self.age))
+
+# ab = Employee("SHEZI",22) 
+# db = Employee("Hassan",23)
+# cd =Employee("Zubair",33)
+# ff= Employee("Ahmad",11)
+# fd = Employee("Shahzaib",23)
+
+
+# ab.getEmp()  
+# db.getEmp()
+# cd.getEmp()
+# ff.getEmp()
+# fd.getEmp()
+
+
+# assignment 26: give 1 parameter and two arguments
+
+
+class Employee:
+    # pass
+    def __init__(self, *name):
+        self.name = name
+    def getEmp(self):
+        print(f"{self.name[1] + self.name[1]}") 
+
+ab = Employee(21,22,23,24) 
+ab.getEmp() 
+
 
 
 

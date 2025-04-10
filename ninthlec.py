@@ -33,8 +33,8 @@
 # st1 = {"hello","world","!"}
 # st2 = {"hello","menu"}
 
-# st3 = st1.union(stt2)                        # union method
-# st3 = st1.intersection(stt2)                 # intersection method
+# st3 = st1.union(st2)                        # union method
+# st3 = st1.intersection(st2)                 # intersection method
 # st3 = st1 & st2                              # intersection method
 # st3 = st1.difference(st2)                    # common things delete
 # st3 = st1-st2                                  # minus things
@@ -79,15 +79,15 @@
 
 # assignment
 
-st1 = {"hello","world"}
-st2 = {"how","are"}
-set3 = {"you","fine"}
-st4 = st1.union(st2,set3)
-st5 = st4
-ls = list(st5)
-tup = tuple(st5)
-print(st4)
-print(type(ls),type(tup))
+# st1 = {"hello","world"}
+# st2 = {"how","are"}
+# set3 = {"you","fine"}
+# st4 = st1.union(st2,set3)
+# st5 = st4
+# ls = list(st5)
+# tup = tuple(st5)
+# print(st4)
+# print(type(ls),type(tup))
 
 
 
