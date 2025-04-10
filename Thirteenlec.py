@@ -98,13 +98,13 @@
 # assignment 3
 
 
-class Employee:
-    # pass
-    def __init__(self, *name):
-        self.name = name
-    def getEmp(self):
-        print(f"{self.name[1] + self.name[1]}") 
+# class Employee:
+#     # pass
+#     def __init__(self, *name):
+#         self.name = name
+#     def getEmp(self):
+#         print(f"{self.name[1] + self.name[1]}") 
 
-ab = Employee(21,22,23,24) 
-ab.getEmp() 
+# ab = Employee(21,22,23,24) 
+# ab.getEmp() 
 
